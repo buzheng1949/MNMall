@@ -30,8 +30,7 @@
   - 创建数据库
   - 创建数据表
   
-  ```
-  DROP TABLE IF EXISTS `mall_product`;
+```
 CREATE TABLE `mall_product` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(200) COLLATE utf8_bin NOT NULL comment "商品名称",
@@ -40,7 +39,7 @@ CREATE TABLE `mall_product` (
   `price` varchar(200) COLLATE utf8_bin NOT NULL comment "商品价格",
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
-  ```
+```
   
 - 实现前端请求到后端的交互
  - 实现获取所有的商品信息
